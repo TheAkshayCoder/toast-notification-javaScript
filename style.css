@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    position:fixed;
+    bottom:0;
+    right: 0;
+}
+
+.toast{
+    background-color: rgb(187, 131, 240);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px rgb(190, 94, 228);
+    text-shadow: 2px 2px 2px black;
+    color: white;
+}
+
+#btn{
+    color: white;
+    background-color: violet;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px red;
+    border: none;
+}
+
+#btn:hover{
+    box-shadow: 8px 8px 5px red;  
+    text-shadow: 2px 2px 2px black; 
+}
